@@ -1,0 +1,7 @@
+[35msrc/main/java/com/hospital/resource/optimization/controller/StaffController.java[m[36m:[m@PreAuthorize("hasRole('STAFF')") // STRICT [1;31mAC[mCESS CONTROL
+[35msrc/main/java/com/hospital/resource/optimization/controller/TestHandlerController.java[m[36m:[m                Files.copy(file.getInputStream(), targetLocation, StandardCopyOption.REPL[1;31mAC[mE_EXISTING);
+[35msrc/main/java/com/hospital/resource/optimization/model/Test.java[m[36m:[m    // Status: [1;31mAC[mTIVE, IN[1;31mAC[mTIVE
+[35msrc/main/java/com/hospital/resource/optimization/model/Test.java[m[36m:[m    private String status = "[1;31mAC[mTIVE";
+[35msrc/main/java/com/hospital/resource/optimization/service/impl/TestServiceImpl.java[m[36m:[m            test.setStatus("[1;31mAC[mTIVE".equals(test.getStatus()) ? "IN[1;31mAC[mTIVE" : "[1;31mAC[mTIVE");
+[35msrc/main/resources/application.properties[m[36m:[mtwilio.account.sid=${TWILIO_[1;31mAC[mCOUNT_SID}
+Binary file [35muploads/1767109571547_Resume_618913fb-d24e-468f-8485-43839ff4c5ea.pdf[m matches
